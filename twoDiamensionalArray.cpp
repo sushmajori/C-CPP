@@ -1,3 +1,4 @@
+// Taking Input from user for two diamensional array and display the array elements.
 #include<iostream>
 using namespace std;
 int main()
