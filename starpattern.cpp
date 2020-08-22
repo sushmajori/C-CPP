@@ -1,3 +1,4 @@
+#Program for prnting star.
 #include<iostream>
 using namespace std;
 int main()
