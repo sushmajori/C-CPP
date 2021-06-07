@@ -1,8 +1,11 @@
+#Program for storing very  large number in c++
 #include<iostream>
 using namespace std;
 int main()
 {
-    string str = "12345678098765431234567809876543";
+    string str;
+    cout<<"Enter number";
+    getline(cin,str);
     int i = 0;
     int len=  str.size();
     int arr[len];
