@@ -8,7 +8,20 @@ int main()
     v.push_back(6);
     v.pop_back();
 
+    cout<<"Size of vector: "<<v.size()<<endl;
+    cout<<"capacity of vector: "<<v.capacity()<<endl;
+    v.resize(8);
+    cout<<"Size of vector: "<<v.size()<<endl;
+    cout<<"Maximum "<<v.max_size()<<endl;
 
+    if(v.empty()==1)
+    {
+        cout<<"Vecor is empty"<<endl;
+    }
+    else
+    {
+        cout<<"Vector is not empty"<<endl;
+    }
     // Display the value of vector using for each loop
     cout<<"Display the value of vector using for each loop"<<endl;
     for(int x: v)
