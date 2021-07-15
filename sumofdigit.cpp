@@ -1,3 +1,7 @@
+//Consider a string and calculating the number of sum are in the string
+// Input : a1b2c3 Output : 6 
+// Input : shdvh11ab4b3 Output : 18
+
 #include<iostream>
 using namespace std;
 int main()
