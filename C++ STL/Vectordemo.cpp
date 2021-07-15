@@ -28,10 +28,12 @@ int main()
     {
         cout<<*itr<<endl;
     }
-    for(int i =0; i<5; i++)
+    // display value  of vector using reverse order
+    cout<<"Display value of vector using reverse order"<<endl;
+     for(auto i = v.rbegin(); i!= v.rend(); i++)
     {
-        
+        cout<<*i<<endl;
     }
-
+   
     return 0;
 }
